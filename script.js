@@ -31,7 +31,7 @@ const firstObserver = new IntersectionObserver(function(entries){
         entry.target.classList.toggle("shownow", entry.isIntersecting)
     })
     console.log(entries)
-},{threshold: 0.5,})
+},{threshold: 0,})
 hideNow.forEach(function(hide){
     firstObserver.observe(hide)
 })
