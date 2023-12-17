@@ -1,0 +1,243 @@
+@media (max-width: 1148px){
+    .education, .experience, .certification{
+        height: 200px;
+        border-radius: 10px;
+        width: 350px;
+        border: 1px solid black;
+        padding: 10px 20px;
+        line-height: 30px;
+        margin: 0 0 40px 0;
+        cursor: pointer;
+    }
+}
+@media (max-width: 1024px){
+    .menu{
+        font-size: 16px;
+        font-weight: 600;
+        margin-left: 100px;
+    }
+    /*** styling the the project ***/
+    .project-section {
+        padding: 20px 60px;
+    }
+
+}
+@media (max-width: 900px){
+    .menu{
+        font-size: 16px;
+        font-weight: 600;
+        margin-left: 150px;
+    }
+    .logo h3 {
+        font-size:30px;
+        margin: 0 0 0 5px;
+    }
+    /**** STYLING THE ABOUT SECTION ***/
+    .about-section {
+        width: 100%;
+        padding: 20px 70px;
+    }
+    .about-flex {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .education, .experience, .certification {
+    width: 300px;
+    margin: 0 0 40px 0;
+    
+    }
+    /**** STYLING THE PROJECT SECTION*****/
+    .project-section {
+        width: 100%;
+        padding: 20px 70px;
+        cursor: pointer;
+    }
+    .project {
+        width: 23%;
+        min-width: 300px;
+        
+    }
+
+}
+@media (max-width: 850px){
+    /*STYLING THE HERO SECTION ****/
+    .hero-section{
+        padding: 40px 20px;   
+    }
+    .hero{
+        text-align: center;
+    }
+    .hero-writeup {
+        margin: 10px 0 0 0;
+        line-height: 25px;
+    }
+    .hero-writeup h6{
+        font-size: 18px;
+    }
+    .hero-writeup h2 {
+        font-size: 25px;
+    }
+    .hero-writeup h4 {
+        font-size: 20px;
+    }
+    
+    .icons {
+        width: 80px;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 10px auto 0 auto;
+        
+    }
+}
+@media (max-width: 768px){
+    container{
+        width: 100%;
+    }
+    .navbar {
+        
+        padding: 10px 20px;
+       
+    }
+    .logo h3 {
+        font-size: 25px;
+        margin: 0 0 0 5px;
+    }
+    .menu{
+        display: none
+    }
+    h2 .fa-bars {
+        display: block;
+        padding: 5px 10px;
+    }
+    h2 .fa-bars:hover {
+        background: black;
+        color: white;
+    }
+    /*** STYLING THE HERO SECTION ****/
+    /*.hero-section{
+        padding: 40px 20px;   
+    }
+    .hero{
+        text-align: center;
+    }
+    .hero-writeup {
+        margin: 10px 0 0 0;
+        line-height: 25px;
+    }
+    .hero-writeup h6{
+        font-size: 18px;
+    }
+    .hero-writeup h2 {
+        font-size: 25px;
+    }
+    .hero-writeup h4 {
+        font-size: 20px;
+    }
+    
+    .icons {
+        width: 80px;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 10px auto 0 auto;
+        
+    }
+    /**** ABOUT SECTION *****/
+    .about-section {
+        padding: 20px 20px;
+    }
+    /**** THE PROJECT SECTION *****/
+    .project-section {
+        padding: 20px 20px;
+    }
+    
+}
+
+@media (max-width: 620px){
+    .container{
+        width: 100%;
+    }
+    
+    /** STYLING THE ABOUT SECTION ****/
+    .about-flex {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .education, .experience, .certification {
+        height: 250px;
+        width: 400px;
+        border: 1px solid black;
+        padding: 10px 20px;
+        line-height: 30px;
+        margin: 0 0 40px 0;
+        cursor: pointer;
+    }
+    /** STYLING THE PROJECT SECTION ***/
+    .project-sets {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project {
+        width: 40%;
+        min-width: 400px;
+    }   
+    .contact {
+        width: 100%;
+        padding: 20px 10px;
+    }
+    .contact-btn {
+        padding: 10px 40px;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+    }
+}
+/*** mobile ****/
+@media(max-width: 480px){
+    /**** STYLING THE ABOUT SECTION ****/
+    .about-section {
+        width: 100%;
+        padding: 20px 10px;;
+    } 
+    .about-writeup > h1, .project-writeup > h1, .contact-writeup > h1 {
+        font-size: 30px;
+    }
+    .education, .experience, .certification {
+        height: 250px;
+        width: 300px;
+        border: 1px solid black;
+        padding: 10px 20px;
+        line-height: 30px;
+        margin: 0 0 40px 0;
+        cursor: pointer;
+    }
+    .education h1, .experience h1, .certification h1{
+        font-size: 35px;
+        margin: 0 0 10px 0;
+    } 
+    .education h3, .experience h3, .certification h3{
+        font-size:  30px;
+    }
+    .education p, .experience p, .certification p{ 
+        font-size: 18px;
+    }
+    /***** STYLING THE PROJECTS SECTION *****/
+    .project-section {
+       padding: 20px 10px;
+       cursor: pointer;
+    }
+    .project {
+        width: 23%;
+        min-width: 300px;
+        padding: 20px;
+        border: 1px solid black;
+        margin: 0 0 40px 0;
+        text-align: center;
+    }
+
+}
+
+
+
+
