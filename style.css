@@ -164,20 +164,21 @@ button{
 }
 
 .education, .experience, .certification{
+    max-width: 350px;
     width: 350px;
-    min-height: 200px;
+    height: 200px;
     border-radius: 10px;
     border: 1px solid black;
     padding: 10px 20px;
     line-height: 30px;
     cursor: pointer;
-    //transform: translateX(400%)
 }
 .education{
     transition-delay: 400ms;
 }
 .experience{
     transition-delay: 600ms; 
+    overflow: hidden
 }
 .certification{
     transition-delay: 800ms;
@@ -381,7 +382,6 @@ button{
 @media (max-width: 859px){
     /*** STYLING THE ABOUT SECTION*/
     .about-flex {
-        max-width: 500px;
         flex-direction: column;
         align-items: center;
         
@@ -418,19 +418,20 @@ button{
         width: 100%;
         padding: 20px 20px;
     }
-    .about-flex {
+    /*.about-flex {
         max-width: 300px;
 
-    }
+    }*/
     .education, .experience, .certification {
         max-width: 250px;
-        min-height: 200px;
+        min-height: 250px;
         border-radius: 10px;
         border: 1px solid black;
         padding: 10px 20px;
         line-height: 30px;
         cursor: pointer;
     }
+    
     .education h1, .experience h1, .certification h1{
         font-size: 35px;
         margin: 0 0 10px 0;
@@ -458,5 +459,16 @@ button{
         flex-direction: column;
         align-items: center;
         gap: 10px;
+    }
+}
+@media(max-width: 299px){
+    .education, .experience, .certification {
+        max-width: 200px;
+        min-height: 250px;
+        border-radius: 10px;
+        border: 1px solid black;
+        padding: 10px 20px;
+        line-height: 30px;
+        cursor: pointer;
     }
 }
